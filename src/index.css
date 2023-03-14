@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Manrope-Variable;
+  src: url(./Fonts/Manrope-VariableFont_wght.ttf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +10,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(218, 23%, 16%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.advice-block {
+  width: 30em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 10em;
+  padding-top: 4em;
+  padding-left: 3em;
+  padding-right: 3em;
+  background-color: hsl(217, 19%, 24%);
+  font-family: Manrope-Variable;
+  font-weight: 800;
+  border-radius: 0.5em;
+}
+
+.advice {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+}
+
+.advice-id {
+  color: hsl(150, 100%, 66%);
+}
+
+.dice-icon-background{
+  display: flex;
+  width: 4em;
+  height: 4em;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 5em;
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.dice-icon{
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
+  margin: auto;
+  height: 100%; */
+  margin: auto;
+}
+
+.divider-desktop{
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
