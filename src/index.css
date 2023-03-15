@@ -20,6 +20,7 @@ code {
 
 .advice-block {
   width: 30em;
+  height: 20em;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -37,6 +38,8 @@ code {
 .advice {
   color: hsl(193, 38%, 86%);
   font-size: 28px;
+  display: flex;
+  justify-content: center;
 }
 
 .advice-id {
@@ -69,4 +72,13 @@ code {
 .divider-desktop{
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.advice-paragraphs{
+  height: 13.5em;
+}
+
+.glow-button:hover{
+  color: hsl(150, 100%, 66%);
+  box-shadow: 0 1px 30px hsl(150, 100%, 66%);
 }

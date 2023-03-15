@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 // let adviceId = 0;
 
-function Advice ()
+function AdviceMobile ()
 {
     let adviceData = '';
     const [ advice, setAdvice ] = useState('');
@@ -31,7 +31,7 @@ function Advice ()
       }, []);
             return (
                 <div>
-                    <Container className='.d-none .d-lg-block .d-xl-none'>
+                    <Container>
                         <Row>
                             <Col className='advice-paragraphs'>
                                 <p className='advice-id'>Advice #{advice.id}</p>
@@ -40,7 +40,7 @@ function Advice ()
                         </Row>
                         <Row>
                             <Col>
-                            <svg className='divider-desktop 	..d-none .d-sm-block .d-md-none' width="444" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z"/><g transform="translate(212)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
+                            <svg width="295" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z"/><g transform="translate(138)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
                             </Col>
                         </Row>
                         <Row>
@@ -53,4 +53,4 @@ function Advice ()
             );
 }
 
-export default Advice
+export default AdviceMobile
