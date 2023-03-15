@@ -1,3 +1,6 @@
+//3/15/23
+//Peer reviewed by Jeremy Lapham--------- Good looking site looks exact just not fully responsive for mobile
+
 import './App.css';
 import Advice from './Components/Advice/AdviceComponent';
 // import AdviceMobile from './Components/AdviceMobile/AdviceMobileComponent';
